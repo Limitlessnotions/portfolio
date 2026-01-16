@@ -9,14 +9,14 @@ export default function Home() {
             <img
               src="/profile.jpg"
               alt="Silas"
-              className="w-36 h-36 rounded-full object-cover"
+              className="w-36 h-36 rounded-full object-cover shadow-sm"
             />
           </div>
 
           <div className="space-y-6">
             <h1 className="text-[32px] md:text-[38px] font-medium leading-[1.25]">
               I design AI-powered systems that reduce operational friction
-              and drive measurable business growth.
+              and turn leads into revenue at scale.
             </h1>
 
             <p className="text-[17px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
@@ -55,34 +55,36 @@ export default function Home() {
             Services
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="font-medium">AI Automation & Workflows</h3>
-              <p className="text-neutral-600 dark:text-neutral-400">
-                Custom automation systems that eliminate repetitive tasks and improve efficiency.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-medium">CRM Setup & Optimization</h3>
-              <p className="text-neutral-600 dark:text-neutral-400">
-                Well-structured CRM pipelines for lead tracking and follow-ups.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-medium">Sales & Lead Chatbots</h3>
-              <p className="text-neutral-600 dark:text-neutral-400">
-                Intelligent chatbots across web and messaging platforms.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-medium">Web & Visual Design</h3>
-              <p className="text-neutral-600 dark:text-neutral-400">
-                Conversion-focused websites and brand visuals that support growth.
-              </p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {[
+              {
+                title: "AI Automation & Workflows",
+                text: "Custom automation systems that eliminate repetitive tasks, reduce errors, and improve efficiency."
+              },
+              {
+                title: "CRM Setup & Optimization",
+                text: "Well-structured CRM pipelines for lead capture, follow-ups, and long-term customer management."
+              },
+              {
+                title: "Sales & Lead Chatbots",
+                text: "Intelligent chatbots across web and messaging platforms that qualify leads and support sales."
+              },
+              {
+                title: "Web & Visual Design",
+                text: "Conversion-focused websites and visual assets designed to support business growth."
+              }
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="rounded-xl border border-neutral-200 dark:border-neutral-700
+                           bg-white dark:bg-[#111827] p-6 shadow-sm space-y-2"
+              >
+                <h3 className="font-medium">{item.title}</h3>
+                <p className="text-neutral-600 dark:text-neutral-400">
+                  {item.text}
+                </p>
+              </div>
+            ))}
           </div>
         </section>
 
@@ -92,34 +94,63 @@ export default function Home() {
             Selected Work
           </h2>
 
-          <div className="space-y-10 max-w-[720px] mx-auto">
-            <div>
-              <h3 className="font-medium">WhatsApp Credit & Repayment Automation</h3>
-              <p className="text-neutral-500">
-                End-to-end automated onboarding, credit requests, and repayments.
-              </p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                title: "WhatsApp Credit & Repayment Automation",
+                text: "Automated onboarding, credit requests, voucher logic, and repayment workflows."
+              },
+              {
+                title: "Sales Chatbots & Lead Capture",
+                text: "Chatbots that qualify leads, answer questions, and book appointments automatically."
+              },
+              {
+                title: "CRM & Workflow Systems",
+                text: "Scalable CRM and automation systems built for growing teams."
+              }
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="rounded-xl border border-neutral-200 dark:border-neutral-700
+                           bg-white dark:bg-[#111827] p-6 shadow-sm space-y-2"
+              >
+                <h3 className="font-medium">{item.title}</h3>
+                <p className="text-neutral-500">{item.text}</p>
+              </div>
+            ))}
+          </div>
+        </section>
 
-            <div>
-              <h3 className="font-medium">Sales Chatbots & Lead Capture</h3>
-              <p className="text-neutral-500">
-                Chatbots that qualify leads and book appointments automatically.
-              </p>
-            </div>
+        {/* RESULTS */}
+        <section id="reviews" className="space-y-12">
+          <h2 className="text-xs uppercase tracking-[0.22em] text-blue-500/80 text-center">
+            Results That Matter
+          </h2>
 
-            <div>
-              <h3 className="font-medium">CRM & Workflow Systems</h3>
-              <p className="text-neutral-500">
-                Scalable CRM and automation setups for growing teams.
-              </p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              { value: "20+", label: "Clients Served" },
+              { value: "50+", label: "Projects Delivered" },
+              { value: "Reliable", label: "End-to-End Systems" }
+            ].map((item) => (
+              <div
+                key={item.label}
+                className="rounded-xl border border-neutral-200 dark:border-neutral-700
+                           bg-white dark:bg-[#111827] p-6 text-center shadow-sm"
+              >
+                <p className="text-2xl font-medium">{item.value}</p>
+                <p className="text-sm text-neutral-500">{item.label}</p>
+              </div>
+            ))}
           </div>
         </section>
 
         {/* CONTACT */}
         <section id="contact" className="flex justify-center">
-          <div className="max-w-[720px] w-full rounded-xl border border-neutral-200 p-12 text-center
-                          bg-neutral-50 dark:bg-[#0f0f0f] dark:border-neutral-700 space-y-5">
+          <div
+            className="max-w-[720px] w-full rounded-xl border border-neutral-200 dark:border-neutral-700
+                       bg-white dark:bg-[#111827] p-12 text-center shadow-sm space-y-5"
+          >
             <h2 className="text-lg font-medium">
               Let’s discuss your systems.
             </h2>
