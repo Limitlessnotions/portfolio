@@ -1,25 +1,23 @@
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-neutral-200">
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        {/* Logo / Name */}
-        <div className="font-semibold text-lg">
+    <header className="fixed top-0 left-0 right-0 bg-white">
+      <div className="max-w-[640px] mx-auto px-6 h-20 flex items-center justify-between text-sm">
+        <div className="font-medium">
           Silas
         </div>
 
-        {/* Navigation */}
-        <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-700">
+        <nav className="flex items-center gap-6 text-neutral-600">
           <a href="#case-studies" className="hover:text-black">
-            Case Studies
+            Work
           </a>
           <a href="#contact" className="hover:text-black">
             Contact
           </a>
           <a
-            href="https://https://calendar.app.google/oZm3C48pYcJPJ7di7"
+            href="https://calendar.app.google/oZm3C48pYcJPJ7di7"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-md bg-black px-4 py-2 text-white"
+            className="underline underline-offset-4 hover:text-black"
           >
             Book a Call
           </a>
