@@ -7,17 +7,23 @@ export default function Header() {
         </div>
 
         <nav className="flex items-center gap-6 text-neutral-600">
-          <a href="#case-studies" className="hover:text-black">
+          <a
+            href="#case-studies"
+            className="transition-colors duration-200 hover:text-neutral-900"
+          >
             Work
           </a>
-          <a href="#contact" className="hover:text-black">
+          <a
+            href="#contact"
+            className="transition-colors duration-200 hover:text-neutral-900"
+          >
             Contact
           </a>
           <a
             href="https://calendar.app.google/oZm3C48pYcJPJ7di7"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline underline-offset-4 hover:text-black"
+            className="underline underline-offset-4 transition-colors duration-200 hover:text-neutral-900"
           >
             Book a Call
           </a>
