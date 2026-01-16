@@ -15,42 +15,42 @@ export default function Header() {
         <nav className="flex items-center gap-8 text-neutral-600 dark:text-neutral-100">
 
           <a
-            href="#home"
+            href="/"
             className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
           >
             Home
           </a>
 
           <a
-            href="about"
+            href="/about"
             className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
           >
             About
           </a>
 
           <a
-            href="#services"
+            href="/#services"
             className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
           >
             Services
           </a>
 
           <a
-            href="#portfolio"
+            href="/#portfolio"
             className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
           >
             Portfolio
           </a>
 
           <a
-            href="#reviews"
+            href="/#reviews"
             className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
           >
             Reviews
           </a>
 
           <a
-            href="#contact"
+            href="/#contact"
             className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
           >
             Contact
