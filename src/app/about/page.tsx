@@ -1,146 +1,223 @@
 export default function About() {
   return (
     <main className="px-6 pt-32 pb-44">
-      <div className="max-w-[760px] mx-auto space-y-32">
+      <div className="max-w-[900px] mx-auto space-y-36">
 
         {/* INTRO */}
-        <section className="space-y-6">
+        <section className="space-y-6 max-w-[720px]">
           <h1 className="text-[30px] md:text-[36px] font-medium leading-[1.25]">
             About me
           </h1>
 
           <p className="text-[17px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            I’m an Automation Engineer focused on building smart systems that help
-            businesses capture leads, follow up consistently, and drive sales
-            without relying on manual effort.
+            I’m an Automation Engineer focused on building AI-powered systems
+            that help businesses capture leads, follow up consistently,
+            and drive revenue through well-structured workflows.
           </p>
         </section>
 
-        {/* JOURNEY */}
-        <section className="space-y-6">
-          <h2 className="text-xs uppercase tracking-[0.22em] text-neutral-400">
+        {/* MY JOURNEY */}
+        <section className="space-y-12">
+          <h2 className="text-xs uppercase tracking-[0.22em] text-blue-500/80">
             My Journey
           </h2>
 
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            I started my career in graphic design, helping businesses improve how
-            they looked. From there, I moved into web development, where I learned
-            how structure, layout, and messaging influence user behavior.
-          </p>
+          <div
+            className="
+              rounded-xl
+              border border-neutral-200 dark:border-neutral-700
+              bg-white dark:bg-[#111827]
+              p-8
+              shadow-sm
+              transition-all duration-200 ease-out
+              hover:-translate-y-[2px]
+              hover:shadow-md
+              hover:border-blue-500/40
+              dark:hover:border-blue-400/40
+              space-y-5
+            "
+          >
+            <p className="text-neutral-600 dark:text-neutral-400">
+              I started my career in graphic design, moved into web development,
+              and gradually transitioned into automation as I began to see a
+              recurring problem: many businesses had websites, but very few had
+              systems that actually converted visitors into leads.
+            </p>
 
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            Over time, I began to notice a recurring problem. Many businesses had
-            websites that didn’t convert at all. Others had decent websites but
-            no proper system to capture leads. And even when leads were collected,
-            there was often no structured follow-up. At the same time, teams were
-            drowning in manual tasks that consumed time and energy.
-          </p>
+            <p className="text-neutral-600 dark:text-neutral-400">
+              Even when leads were captured, follow-up was often inconsistent
+              or completely manual. Time was being wasted, opportunities were
+              slipping through the cracks, and revenue was left on the table.
+            </p>
 
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            That realization pushed me toward automation. As I started building
-            automated workflows, I saw how much time and money businesses could
-            save when systems were set up correctly. This naturally led me into
-            CRM systems, and eventually into AI-powered automation and chatbots.
-          </p>
-
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            What began as working with individual tools evolved into something
-            bigger: system thinking. Instead of isolated solutions, I now focus
-            on building connected systems that work together reliably.
-          </p>
+            <p className="text-neutral-600 dark:text-neutral-400">
+              That’s when I pivoted fully into automation and AI-driven systems.
+              What started as working with individual tools evolved into system
+              thinking — designing connected workflows that capture leads,
+              follow up automatically, and support sales without constant
+              manual effort.
+            </p>
+          </div>
         </section>
 
         {/* WHAT I DO TODAY */}
-        <section className="space-y-6">
-          <h2 className="text-xs uppercase tracking-[0.22em] text-neutral-400">
+        <section className="space-y-12">
+          <h2 className="text-xs uppercase tracking-[0.22em] text-blue-500/80">
             What I Do Today
           </h2>
 
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            Today, I work as an Automation Engineer designing AI-powered systems
-            that drive sales and capture leads into well-structured CRM pipelines.
-            These systems automate follow-ups, reduce manual work, and ensure
-            businesses respond to opportunities consistently.
-          </p>
-
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            My work typically spans AI automation, CRM setup and optimization,
-            sales and support chatbots across web and messaging platforms, workflow
-            automation, web systems, and visual design where it supports business
-            outcomes.
-          </p>
+          <div
+            className="
+              rounded-xl
+              border border-neutral-200 dark:border-neutral-700
+              bg-white dark:bg-[#111827]
+              p-8
+              shadow-sm
+              transition-all duration-200 ease-out
+              hover:-translate-y-[2px]
+              hover:shadow-md
+              hover:border-blue-500/40
+              dark:hover:border-blue-400/40
+            "
+          >
+            <p className="text-neutral-600 dark:text-neutral-400">
+              Today, I build smart automation systems that combine AI,
+              sales-driven chatbots, and structured CRM workflows.
+              These systems are designed to capture leads, follow up
+              intelligently, and move prospects through a clear,
+              revenue-focused pipeline.
+            </p>
+          </div>
         </section>
 
-        {/* WHY CLIENTS TRUST ME */}
-        <section className="space-y-6">
-          <h2 className="text-xs uppercase tracking-[0.22em] text-neutral-400">
+        {/* TRUST FACTORS */}
+        <section className="space-y-12">
+          <h2 className="text-xs uppercase tracking-[0.22em] text-blue-500/80">
             Why Clients Trust Me
           </h2>
 
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            Clients trust me because I’m reliable, communicative, and calm under
-            pressure. I take time to understand the real problem before proposing
-            a solution, and I focus on clarity rather than complexity.
-          </p>
-
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            I’m particularly valued for my ability to simplify complex workflows
-            and translate them into systems that teams can actually use. My goal
-            is always to deliver solutions that feel intuitive, stable, and easy
-            to maintain.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {[
+              {
+                title: "Reliability",
+                text: "I deliver what I commit to and keep projects moving without unnecessary friction."
+              },
+              {
+                title: "Clear Communication",
+                text: "You always know what’s happening, why decisions are made, and what comes next."
+              },
+              {
+                title: "Calm Under Pressure",
+                text: "I handle complex systems and edge cases without panic or shortcuts."
+              },
+              {
+                title: "System Thinking",
+                text: "I simplify complex problems into clear, scalable automation systems."
+              }
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="
+                  rounded-xl
+                  border border-neutral-200 dark:border-neutral-700
+                  bg-white dark:bg-[#111827]
+                  p-6
+                  shadow-sm
+                  transition-all duration-200 ease-out
+                  hover:-translate-y-[2px]
+                  hover:shadow-md
+                  hover:border-blue-500/40
+                  dark:hover:border-blue-400/40
+                "
+              >
+                <h3 className="font-medium text-neutral-800 dark:text-neutral-100">
+                  {item.title}
+                </h3>
+                <p className="mt-2 text-neutral-600 dark:text-neutral-400">
+                  {item.text}
+                </p>
+              </div>
+            ))}
+          </div>
         </section>
 
-        {/* EXPERIENCE & TOOLS */}
-        <section className="space-y-6">
-          <h2 className="text-xs uppercase tracking-[0.22em] text-neutral-400">
-            Experience & Tools
+        {/* STATS */}
+        <section className="space-y-12">
+          <h2 className="text-xs uppercase tracking-[0.22em] text-blue-500/80 text-center">
+            Experience Snapshot
           </h2>
 
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            I’ve worked with 20+ clients across 50+ projects, building automation
-            and system solutions for different business models.
-          </p>
-
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            My experience includes CRM platforms like GoHighLevel, HubSpot, and
-            Airtable; automation tools such as Zapier, Make, and n8n; chatbot
-            systems across websites, WhatsApp, Facebook, and Instagram; and
-            chatbot tools including ManyChat, Landbot, and Chatbase.
-          </p>
-
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            I also bring a design background, using tools like CorelDRAW,
-            Photoshop, and Figma, which helps me build systems that are not only
-            functional but clear and user-friendly.
-          </p>
-
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            My certifications include Zapier Expert, n8n Specialist, Airtable
-            Expert, and AI Automation Expert.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[720px] mx-auto">
+            {[
+              { value: "20+", label: "Clients Worked With" },
+              { value: "50+", label: "Projects Delivered" }
+            ].map((item) => (
+              <div
+                key={item.label}
+                className="
+                  rounded-xl
+                  border border-neutral-200 dark:border-neutral-700
+                  bg-white dark:bg-[#111827]
+                  p-6
+                  text-center
+                  shadow-sm
+                  transition-all duration-200 ease-out
+                  hover:-translate-y-[2px]
+                  hover:shadow-md
+                  hover:border-blue-500/40
+                  dark:hover:border-blue-400/40
+                "
+              >
+                <p className="text-2xl font-medium text-neutral-800 dark:text-neutral-100">
+                  {item.value}
+                </p>
+                <p className="text-sm text-neutral-500">
+                  {item.label}
+                </p>
+              </div>
+            ))}
+          </div>
         </section>
 
         {/* CTA */}
-        <section className="space-y-6">
-          <h2 className="text-xs uppercase tracking-[0.22em] text-neutral-400">
-            Next Step
-          </h2>
-
-          <p className="text-[16px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
-            Ready to transform your business? Let’s chat about your challenges and
-            explore how automation can help you save time, reduce errors, and
-            scale more efficiently.
-          </p>
-
-          <a
-            href="https://calendar.app.google/oZm3C48pYcJPJ7di7"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block underline underline-offset-4 transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
+        <section className="flex justify-center">
+          <div
+            className="
+              max-w-[720px] w-full
+              rounded-xl
+              border border-neutral-200 dark:border-neutral-700
+              bg-white dark:bg-[#111827]
+              p-12
+              text-center
+              shadow-sm
+              transition-all duration-200 ease-out
+              hover:-translate-y-[2px]
+              hover:shadow-md
+              hover:border-blue-500/40
+              dark:hover:border-blue-400/40
+              space-y-5
+            "
           >
-            Book a free consultation
-          </a>
+            <h2 className="text-lg font-medium text-neutral-800 dark:text-neutral-100">
+              Ready to transform your business?
+            </h2>
+
+            <p className="text-neutral-600 dark:text-neutral-400">
+              Let’s talk through your challenges and design automation systems
+              that save time, reduce errors, and scale with you.
+            </p>
+
+            <a
+              href="https://calendar.app.google/oZm3C48pYcJPJ7di7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-md bg-blue-600 px-6 py-3 text-white text-sm
+                         transition-colors hover:bg-blue-700
+                         dark:bg-blue-500 dark:hover:bg-blue-400"
+            >
+              Book a Strategy Call
+            </a>
+          </div>
         </section>
 
       </div>
