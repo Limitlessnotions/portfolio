@@ -20,7 +20,7 @@ export default function Header() {
             Contact
           </a>
           <a
-            href="https://calendly.com/YOUR-LINK"
+            href="https://calendar.app.google/oZm3C48pYcJPJ7di7"
             target="_blank"
             rel="noopener noreferrer"
             className="underline underline-offset-4 transition-colors duration-200 hover:text-neutral-900 dark:hover:text-neutral-200"
