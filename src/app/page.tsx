@@ -76,11 +76,21 @@ export default function Home() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-neutral-200 dark:border-neutral-700
-                           bg-white dark:bg-[#111827] p-6 shadow-sm space-y-2"
+                className="
+                  rounded-xl
+                  border border-neutral-200 dark:border-neutral-700
+                  bg-white dark:bg-[#111827]
+                  p-6
+                  shadow-sm
+                  transition-all duration-200 ease-out
+                  hover:-translate-y-[2px]
+                  hover:shadow-md
+                "
               >
-                <h3 className="font-medium">{item.title}</h3>
-                <p className="text-neutral-600 dark:text-neutral-400">
+                <h3 className="font-medium text-neutral-800 dark:text-neutral-100">
+                  {item.title}
+                </h3>
+                <p className="mt-2 text-neutral-600 dark:text-neutral-400">
                   {item.text}
                 </p>
               </div>
@@ -111,11 +121,23 @@ export default function Home() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-neutral-200 dark:border-neutral-700
-                           bg-white dark:bg-[#111827] p-6 shadow-sm space-y-2"
+                className="
+                  rounded-xl
+                  border border-neutral-200 dark:border-neutral-700
+                  bg-white dark:bg-[#111827]
+                  p-6
+                  shadow-sm
+                  transition-all duration-200 ease-out
+                  hover:-translate-y-[2px]
+                  hover:shadow-md
+                "
               >
-                <h3 className="font-medium">{item.title}</h3>
-                <p className="text-neutral-500">{item.text}</p>
+                <h3 className="font-medium text-neutral-800 dark:text-neutral-100">
+                  {item.title}
+                </h3>
+                <p className="mt-2 text-neutral-500">
+                  {item.text}
+                </p>
               </div>
             ))}
           </div>
@@ -135,11 +157,24 @@ export default function Home() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="rounded-xl border border-neutral-200 dark:border-neutral-700
-                           bg-white dark:bg-[#111827] p-6 text-center shadow-sm"
+                className="
+                  rounded-xl
+                  border border-neutral-200 dark:border-neutral-700
+                  bg-white dark:bg-[#111827]
+                  p-6
+                  text-center
+                  shadow-sm
+                  transition-all duration-200 ease-out
+                  hover:-translate-y-[2px]
+                  hover:shadow-md
+                "
               >
-                <p className="text-2xl font-medium">{item.value}</p>
-                <p className="text-sm text-neutral-500">{item.label}</p>
+                <p className="text-2xl font-medium text-neutral-800 dark:text-neutral-100">
+                  {item.value}
+                </p>
+                <p className="text-sm text-neutral-500">
+                  {item.label}
+                </p>
               </div>
             ))}
           </div>
@@ -148,10 +183,21 @@ export default function Home() {
         {/* CONTACT */}
         <section id="contact" className="flex justify-center">
           <div
-            className="max-w-[720px] w-full rounded-xl border border-neutral-200 dark:border-neutral-700
-                       bg-white dark:bg-[#111827] p-12 text-center shadow-sm space-y-5"
+            className="
+              max-w-[720px] w-full
+              rounded-xl
+              border border-neutral-200 dark:border-neutral-700
+              bg-white dark:bg-[#111827]
+              p-12
+              text-center
+              shadow-sm
+              transition-all duration-200 ease-out
+              hover:-translate-y-[2px]
+              hover:shadow-md
+              space-y-5
+            "
           >
-            <h2 className="text-lg font-medium">
+            <h2 className="text-lg font-medium text-neutral-800 dark:text-neutral-100">
               Let’s discuss your systems.
             </h2>
 
