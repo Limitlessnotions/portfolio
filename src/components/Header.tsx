@@ -15,7 +15,7 @@ export default function Header() {
         <nav className="flex items-center gap-8 text-neutral-600 dark:text-neutral-100">
 
           <a
-            href="home"
+            href="#home"
             className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
           >
             Home
