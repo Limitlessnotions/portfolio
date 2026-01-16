@@ -1,56 +1,52 @@
 export default function Home() {
   return (
-    <main className="px-6 py-24">
-      <div className="max-w-2xl mx-auto space-y-16">
+    <main className="px-6 pt-32 pb-40">
+      <div className="max-w-[640px] mx-auto space-y-24">
 
         {/* Intro */}
         <section className="space-y-6">
-          <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">
+          <h1 className="text-3xl md:text-4xl font-medium leading-snug">
             I build AI-powered automation systems for real businesses.
           </h1>
 
-          <p className="text-lg text-neutral-600">
-            I design and implement WhatsApp automation, AI assistants,
-            backend workflows, and operational systems that reduce
-            manual work and scale reliably.
-          </p>
-
-          <p className="text-neutral-500">
-            Currently working on WhatsApp-based fintech and operations systems.
+          <p className="text-[17px] leading-relaxed text-neutral-600">
+            I build AI automation systems, sales-driven chatbots, and high-impact websites.
+            My work focuses on CRM optimization, workflow automation, lead capture,
+            and revenue-generating systems for growing businesses.
           </p>
         </section>
 
         {/* Selected Work */}
-        <section className="space-y-8">
-          <h2 className="text-sm uppercase tracking-wider text-neutral-500">
+        <section className="space-y-10">
+          <h2 className="text-xs uppercase tracking-[0.2em] text-neutral-400">
             Selected Work
           </h2>
 
-          <div className="space-y-8">
+          <div className="space-y-10">
             <div>
-              <h3 className="font-medium">
+              <h3 className="font-medium hover:underline underline-offset-4 cursor-pointer">
                 Paylite — WhatsApp Credit Platform
               </h3>
-              <p className="text-neutral-600">
-                AI-powered WhatsApp system for credit requests,
-                vouchers, and repayments.
+              <p className="mt-1 text-neutral-500">
+                AI-powered WhatsApp system for credit requests, vouchers,
+                and repayments.
               </p>
             </div>
 
             <div>
-              <h3 className="font-medium">
+              <h3 className="font-medium hover:underline underline-offset-4 cursor-pointer">
                 Restaurant Operations Automation
               </h3>
-              <p className="text-neutral-600">
+              <p className="mt-1 text-neutral-500">
                 OCR-driven daily reporting across five restaurant locations.
               </p>
             </div>
 
             <div>
-              <h3 className="font-medium">
+              <h3 className="font-medium hover:underline underline-offset-4 cursor-pointer">
                 Joyous Legacy
               </h3>
-              <p className="text-neutral-600">
+              <p className="mt-1 text-neutral-500">
                 AI-generated memorial stories and automated keepsake delivery.
               </p>
             </div>
@@ -59,50 +55,50 @@ export default function Home() {
 
         {/* What I Do */}
         <section className="space-y-4">
-          <h2 className="text-sm uppercase tracking-wider text-neutral-500">
+          <h2 className="text-xs uppercase tracking-[0.2em] text-neutral-400">
             What I Do
           </h2>
 
           <p className="text-neutral-600">
-            I work across WhatsApp automation, AI chatbots, backend systems,
-            OCR pipelines, payments logic, and workflow automation using
-            Node.js, Firebase, and modern automation tools.
+            I work across AI automation, smart chatbots, CRM systems,
+            workflow automation, and conversion-focused websites,
+            using modern tools and scalable backend logic.
           </p>
         </section>
 
         {/* Process */}
         <section className="space-y-4">
-          <h2 className="text-sm uppercase tracking-wider text-neutral-500">
+          <h2 className="text-xs uppercase tracking-[0.2em] text-neutral-400">
             Process
           </h2>
 
           <p className="text-neutral-600">
-            My work usually starts with understanding the real workflow,
-            then designing the system, building and testing it in production,
-            and handing over a stable, documented solution.
+            I start by understanding the real business workflow,
+            then design, build, test, and deliver a stable system
+            that removes manual work and scales with growth.
           </p>
         </section>
 
         {/* Contact */}
         <section className="space-y-4">
-          <h2 className="text-sm uppercase tracking-wider text-neutral-500">
+          <h2 className="text-xs uppercase tracking-[0.2em] text-neutral-400">
             Contact
           </h2>
 
           <p className="text-neutral-600">
-            If you want to work together, reach me at{" "}
+            If you’d like to work together, reach me at{" "}
             <a
               href="mailto:silasmomoh2017@gmail.com"
-              className="underline"
+              className="underline underline-offset-4"
             >
               silasmomoh2017@gmail.com
             </a>{" "}
             or{" "}
             <a
-              href="https://calendly.com/YOUR-LINK"
+              href="https://calendar.app.google/oZm3C48pYcJPJ7di7"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline"
+              className="underline underline-offset-4"
             >
               book a call
             </a>.
