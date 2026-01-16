@@ -16,42 +16,42 @@ export default function Header() {
 
           <a
             href="/"
-            className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
+            className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
           >
             Home
           </a>
 
           <a
             href="/about"
-            className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
+            className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
           >
             About
           </a>
 
           <a
             href="/#services"
-            className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
+            className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
           >
             Services
           </a>
 
           <a
             href="/#portfolio"
-            className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
+            className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
           >
             Portfolio
           </a>
 
           <a
             href="/#reviews"
-            className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
+            className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
           >
             Reviews
           </a>
 
           <a
             href="/#contact"
-            className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
+            className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
           >
             Contact
           </a>
@@ -60,28 +60,14 @@ export default function Header() {
           <button
             onClick={() => setDark(!dark)}
             aria-label="Toggle dark mode"
-            className="ml-2 transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
+            className="ml-2 transition-colors hover:text-blue-600 dark:hover:text-blue-400"
           >
             {dark ? (
-              /* Sun icon */
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 4.5a1 1 0 011 1V7a1 1 0 11-2 0V5.5a1 1 0 011-1zm0 11a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm7.5-3.5a1 1 0 011-1H22a1 1 0 110 2h-1.5a1 1 0 01-1-1zM12 17a1 1 0 011 1v1.5a1 1 0 11-2 0V18a1 1 0 011-1zM3 11a1 1 0 011-1h1.5a1 1 0 110 2H4a1 1 0 01-1-1z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 4.5a1 1 0 011 1V7a1 1 0 11-2 0V5.5a1 1 0 011-1zm0 11a3.5 3.5 0 100-7 3.5 3.5 0 000 7z" />
               </svg>
             ) : (
-              /* Moon icon */
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M21.752 15.002A9 9 0 1112.998 2.25a7 7 0 108.754 12.752z" />
               </svg>
             )}
