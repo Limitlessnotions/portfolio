@@ -118,4 +118,81 @@ export default function Home() {
 
           <div className="space-y-10 max-w-[720px] mx-auto">
             <div>
-              <h3 className="font-medium"
+              <h3 className="font-medium">WhatsApp-Based Credit & Repayment System</h3>
+              <p className="text-neutral-500">
+                Automated onboarding, credit requests, voucher logic, and
+                repayment flows built for scale.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-medium">Sales & Lead Capture Chatbots</h3>
+              <p className="text-neutral-500">
+                Chatbots designed to qualify leads, book calls, and reduce
+                response time across multiple channels.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-medium">Operational Automation for Multi-Location Businesses</h3>
+              <p className="text-neutral-500">
+                Workflow automation and reporting systems that improve visibility
+                and reduce manual coordination.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-medium">Websites & Brand Assets</h3>
+              <p className="text-neutral-500">
+                Conversion-focused websites and supporting visual design aligned
+                with business goals.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* RESULTS */}
+        <section id="reviews" className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="rounded-xl border border-neutral-200 p-6 text-center bg-white dark:bg-[#111] dark:border-neutral-700">
+            <p className="text-2xl font-medium">40+</p>
+            <p className="text-sm text-neutral-500">Businesses Supported</p>
+          </div>
+
+          <div className="rounded-xl border border-neutral-200 p-6 text-center bg-white dark:bg-[#111] dark:border-neutral-700">
+            <p className="text-2xl font-medium">10–20 hrs</p>
+            <p className="text-sm text-neutral-500">Saved Weekly</p>
+          </div>
+
+          <div className="rounded-xl border border-neutral-200 p-6 text-center bg-white dark:bg-[#111] dark:border-neutral-700">
+            <p className="text-2xl font-medium">End-to-End</p>
+            <p className="text-sm text-neutral-500">Systems Delivery</p>
+          </div>
+        </section>
+
+        {/* FINAL CTA */}
+        <section id="contact" className="flex justify-center">
+          <div className="max-w-[720px] w-full rounded-xl border border-neutral-200 p-12 text-center bg-neutral-50 dark:bg-[#0f0f0f] dark:border-neutral-700 space-y-5">
+            <h2 className="text-lg font-medium">
+              Let’s discuss your systems.
+            </h2>
+
+            <p className="text-neutral-600 dark:text-neutral-400">
+              If your business is ready to reduce inefficiencies and build
+              scalable systems, we should talk.
+            </p>
+
+            <a
+              href="https://calendar.app.google/oZm3C48pYcJPJ7di7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4 rounded-md bg-neutral-900 px-6 py-3 text-white text-sm transition-colors hover:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900"
+            >
+              Book a Strategy Call
+            </a>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  );
+}
