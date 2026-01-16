@@ -1,5 +1,5 @@
-import Hero from "@/components/Hero";
-import ProofBar from "@/components/ProofBar";
+import Hero from "../components/Hero";
+import ProofBar from "../components/ProofBar";
 
 export default function Home() {
   return (
