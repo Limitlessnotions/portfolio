@@ -9,7 +9,7 @@ export default function Home() {
             I build AI-powered automation systems for real businesses.
           </h1>
 
-          <p className="text-[17px] leading-[1.75] text-neutral-600">
+          <p className="text-[17px] leading-[1.75] text-neutral-600 dark:text-neutral-400">
             I build AI automation systems, sales-driven chatbots, and high-impact websites.
             My work focuses on CRM optimization, workflow automation, lead capture,
             and revenue-generating systems for growing businesses.
@@ -24,29 +24,29 @@ export default function Home() {
 
           <div className="space-y-14">
             <div className="space-y-1">
-              <h3 className="font-medium leading-snug cursor-pointer transition-colors duration-200 hover:text-neutral-900">
+              <h3 className="font-medium leading-snug cursor-pointer transition-colors duration-200 hover:text-neutral-900 dark:hover:text-neutral-200">
                 Paylite — WhatsApp Credit Platform
               </h3>
-              <p className="text-[15px] leading-[1.6] text-neutral-500">
+              <p className="text-[15px] leading-[1.6] text-neutral-500 dark:text-neutral-500">
                 AI-powered WhatsApp system for credit requests, vouchers,
                 and repayments.
               </p>
             </div>
 
             <div className="space-y-1">
-              <h3 className="font-medium leading-snug cursor-pointer transition-colors duration-200 hover:text-neutral-900">
+              <h3 className="font-medium leading-snug cursor-pointer transition-colors duration-200 hover:text-neutral-900 dark:hover:text-neutral-200">
                 Restaurant Operations Automation
               </h3>
-              <p className="text-[15px] leading-[1.6] text-neutral-500">
+              <p className="text-[15px] leading-[1.6] text-neutral-500 dark:text-neutral-500">
                 OCR-driven daily reporting across five restaurant locations.
               </p>
             </div>
 
             <div className="space-y-1">
-              <h3 className="font-medium leading-snug cursor-pointer transition-colors duration-200 hover:text-neutral-900">
+              <h3 className="font-medium leading-snug cursor-pointer transition-colors duration-200 hover:text-neutral-900 dark:hover:text-neutral-200">
                 Joyous Legacy
               </h3>
-              <p className="text-[15px] leading-[1.6] text-neutral-500">
+              <p className="text-[15px] leading-[1.6] text-neutral-500 dark:text-neutral-500">
                 AI-generated memorial stories and automated keepsake delivery.
               </p>
             </div>
@@ -59,7 +59,7 @@ export default function Home() {
             What I Do
           </h2>
 
-          <p className="text-[16px] leading-[1.7] text-neutral-600">
+          <p className="text-[16px] leading-[1.7] text-neutral-600 dark:text-neutral-400">
             I work across AI automation, smart chatbots, CRM systems,
             workflow automation, and conversion-focused websites,
             using modern tools and scalable backend logic.
@@ -72,7 +72,7 @@ export default function Home() {
             Process
           </h2>
 
-          <p className="text-[16px] leading-[1.7] text-neutral-600">
+          <p className="text-[16px] leading-[1.7] text-neutral-600 dark:text-neutral-400">
             I start by understanding the real business workflow,
             then design, build, test, and deliver a stable system
             that removes manual work and scales with growth.
@@ -85,11 +85,11 @@ export default function Home() {
             Contact
           </h2>
 
-          <p className="text-[16px] leading-[1.7] text-neutral-600">
+          <p className="text-[16px] leading-[1.7] text-neutral-600 dark:text-neutral-400">
             If you’d like to work together, reach me at{" "}
             <a
               href="mailto:silasmomoh2017@gmail.com"
-              className="underline underline-offset-4 transition-colors duration-200 hover:text-neutral-900"
+              className="underline underline-offset-4 transition-colors duration-200 hover:text-neutral-900 dark:hover:text-neutral-200"
             >
               silasmomoh2017@gmail.com
             </a>{" "}
@@ -98,7 +98,7 @@ export default function Home() {
               href="https://calendar.app.google/oZm3C48pYcJPJ7di7"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline underline-offset-4 transition-colors duration-200 hover:text-neutral-900"
+              className="underline underline-offset-4 transition-colors duration-200 hover:text-neutral-900 dark:hover:text-neutral-200"
             >
               book a call
             </a>.
