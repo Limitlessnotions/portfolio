@@ -24,7 +24,7 @@ export default function Home() {
 
           <div className="space-y-14">
             <div className="space-y-1">
-              <h3 className="font-medium leading-snug hover:underline underline-offset-4 cursor-pointer">
+              <h3 className="font-medium leading-snug cursor-pointer transition-colors duration-200 hover:text-neutral-900">
                 Paylite — WhatsApp Credit Platform
               </h3>
               <p className="text-[15px] leading-[1.6] text-neutral-500">
@@ -34,7 +34,7 @@ export default function Home() {
             </div>
 
             <div className="space-y-1">
-              <h3 className="font-medium leading-snug hover:underline underline-offset-4 cursor-pointer">
+              <h3 className="font-medium leading-snug cursor-pointer transition-colors duration-200 hover:text-neutral-900">
                 Restaurant Operations Automation
               </h3>
               <p className="text-[15px] leading-[1.6] text-neutral-500">
@@ -43,7 +43,7 @@ export default function Home() {
             </div>
 
             <div className="space-y-1">
-              <h3 className="font-medium leading-snug hover:underline underline-offset-4 cursor-pointer">
+              <h3 className="font-medium leading-snug cursor-pointer transition-colors duration-200 hover:text-neutral-900">
                 Joyous Legacy
               </h3>
               <p className="text-[15px] leading-[1.6] text-neutral-500">
@@ -89,7 +89,7 @@ export default function Home() {
             If you’d like to work together, reach me at{" "}
             <a
               href="mailto:silasmomoh2017@gmail.com"
-              className="underline underline-offset-4"
+              className="underline underline-offset-4 transition-colors duration-200 hover:text-neutral-900"
             >
               silasmomoh2017@gmail.com
             </a>{" "}
@@ -98,7 +98,7 @@ export default function Home() {
               href="https://calendar.app.google/oZm3C48pYcJPJ7di7"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline underline-offset-4"
+              className="underline underline-offset-4 transition-colors duration-200 hover:text-neutral-900"
             >
               book a call
             </a>.
