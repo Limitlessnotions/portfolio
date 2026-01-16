@@ -22,7 +22,7 @@ export default function Header() {
           </a>
 
           <a
-            href="#about"
+            href="about"
             className="transition-colors hover:text-neutral-900 dark:hover:text-neutral-200"
           >
             About
